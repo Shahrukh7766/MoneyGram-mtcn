@@ -1,0 +1,11 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers-extra/features/webtau-sdkman:2": {
+			"version": "latest",
+			"jdkVersion": "latest",
+			"jdkDistro": "open"
+		},
+		"ghcr.io/devcontainers-extra/features/wireguard-apt-get:1": {}
+	}
+}
